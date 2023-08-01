@@ -1,0 +1,10 @@
+executable = BINDIR/condor_job.sh
+request_cpus = 1
+request_memory = 985
+rank = (machine == "ouhep06.nhn.ou.edu")
+notification = NEVER
+universe = vanilla
+output = OUTDIR/logs/$(process).out
+error = OUTDIR/logs/$(process).err
+log = OUTDIR/logs/$(process).log
+queue arguments from OUTDIR/logs/jobs.txt
