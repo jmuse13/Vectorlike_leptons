@@ -6,7 +6,7 @@
 
 ## Quick Start
 
-Instructions for building and running:
+Instructions for building and running on lxplus (CERN):
 
 ```
 setupATLAS && lsetup cmake && lsetup root
